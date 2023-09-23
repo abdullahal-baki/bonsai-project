@@ -384,8 +384,6 @@ Toggle button styles end
     text-align: center;
     position: absolute;
     width: 350px;
-    /* z-index: 1; */
-    /* top: 0; */
     right: -110px;
     transform: rotate(45deg);
 }
