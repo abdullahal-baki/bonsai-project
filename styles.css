@@ -478,14 +478,49 @@ Toggle button styles end
     width: 150px;
 }
 
+/* 
+section3 styles
+ */
 
+.sub-section3{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.sub-section3 h3{
+    text-align: center;
+    color: #01ba8f;
+    font-size: 33px;
+    padding-bottom: 20px;
+}
 
+.links {
+    margin-top: 15px;
+}
+.links p{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    
+}
+.text {
+    font-size: 25px;
+    font-weight: bold;
+}
 
+.faq:hover{
+    color: #00A37E;
+}
 
-
-
-
-
+.arrow img{
+    height: 12px;
+    opacity: .6;
+}
+p.faq-text {
+    display: none;
+}
 
 
 
@@ -562,6 +597,17 @@ Toggle button styles end
     .sec2-btn{
         margin: 0 auto;
         padding-bottom: 20px;
+    }
+    .sub-section3{
+        padding: 0 50px;
+        padding-top: 30px;
+        margin-bottom: 80px;
+    }
+    .sub-section3 h3{
+        font-size: 23px;
+    }
+    .text{
+        font-size: 17px;
     }
 
 
