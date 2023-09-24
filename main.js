@@ -1,3 +1,17 @@
+let productMenu = document.getElementById('product');
+let productItems = document.getElementById('hover-products-items');
+
+productMenu.addEventListener('mouseenter',showItems);
+function showItems(){
+    productItems.style.display = 'block';
+}
+productMenu.addEventListener('mouseleave',hideItems);
+// productMenu.addEventListener('mouseenter',showItems);
+
+function hideItems(){
+    productItems.style.display = 'none';
+}
+
 let menuImg = document.getElementById('menu');
 let slideBar = document.getElementById('slide-menu');
 
@@ -10,7 +24,6 @@ let ans1 = document.getElementById('ans1');
 let ans2 = document.getElementById('ans2');
 let ans3 = document.getElementById('ans3');
 let ans4 = document.getElementById('ans4');
-
 
 
 
@@ -28,7 +41,6 @@ function showSlide(){
         
     }
 }
-
 q1.addEventListener('click',Answare1);
 function Answare1(){
     let q1Classlist = q1.classList;
@@ -41,9 +53,6 @@ function Answare1(){
         q1Classlist.add('active');
     }
 }
-
-
-
 q2.addEventListener('click',Answare2);
 function Answare2(){
     let q2Classlist = q2.classList;
@@ -56,9 +65,6 @@ function Answare2(){
         q2Classlist.add('active');
     }
 }
-
-
-
 q3.addEventListener('click',Answare3);
 function Answare3(){
     let q3Classlist = q3.classList;
@@ -71,9 +77,6 @@ function Answare3(){
         q3Classlist.add('active');
     }
 }
-
-
-
 q4.addEventListener('click',Answare4);
 function Answare4(){
     let q4Classlist = q4.classList;
@@ -89,12 +92,4 @@ function Answare4(){
 
 
 
-
-
-
-
-
-// ans1.classList.add('active')
-// console.log(ans1.classList)
-// console.log(ans1.classList.contains("active"))
 
